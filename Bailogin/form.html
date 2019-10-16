@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+		<table>
+			<caption>Form đăng ký</caption>			
+			<tr>
+				<td><label for="usernameid">Tên đăng nhập:</label></td>
+				<td><input type="text" id="usernameid"></td>
+			</tr>
+			<tr>
+				<td><label for="passwordid">Mật khẩu:</label></td>
+				<td><input type="password" id="passwordid"></td>
+			</tr>
+			<tr>
+				<td><label for="emailid">Địa chỉ email:</label></td>
+				<td><input type="email" id="emailid"></td>
+			</tr>
+			<tr>
+				<td><label>Giới tính:</label></td>
+				<td><input type="radio" id="namid" name="gender">Nam<input type="radio" id="nuid" name="gender">Nữ</td>
+			</tr>
+			<tr>
+				<td><label>Ngày sinh:</label></td>
+				<td><input type="date"></td>
+			</tr>
+			<tr>
+				<td><label>Màu sắc ưa thích:</label></td>
+				<td><input type="color"></td>
+			</tr>
+			<tr>
+				<td><label for="cityid">Thành phố:</label></td>
+				<td><select id="cityid">
+					<option>Hà Nội</option>
+					<option>Huế</option>
+					<option>Tp. HCM</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label>Số vật nuôi:</label></td>
+				<td><input type="number" value="0" min="0" max="10" step="1"></td>
+			</tr>
+			<tr>
+				<td><label>Số lần cho ăn trong một ngày:</label></td>
+				<td><input type="range" min="1" max="5"></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="cangiua">		
+					<span>ĐIỀU KHOẢN SỬ DỤNG</span>
+					<textarea cols="50" rows="10">Đây là điều khoản sử dụng....</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="cangiua">		
+					<input type="checkbox">Tôi đồng ý với điều khoản sử dụng
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="cangiua">		
+					<input type="submit" value="Đăng ký">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>

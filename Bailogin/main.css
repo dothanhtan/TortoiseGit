@@ -1,0 +1,30 @@
+body {
+	background: aqua;
+}
+
+table {
+	background-color: white;
+	margin: auto;
+	padding: 30px;
+}
+td {
+	padding: 5px;
+}
+txtarea {
+	width: 100%;
+}
+input[type=text], input[type=email], input[type=password] {
+	width: 200px;
+}
+span {
+	display: block;
+}
+
+.cangiua {
+	text-align: center;
+}
+
+input[type=number] {
+	width: 50px;
+}
+
