@@ -1,0 +1,10 @@
+img{
+    width: 10%;
+    display: inline-flex;
+    animation-duration: 5s;
+    transform: rotate(90deg);
+    transition: filter 3s;
+    transform: translate(0%, 10%);
+    animation-direction: alternate;
+    opacity: 100%;
+}
