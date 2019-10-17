@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header,
+footer,
+aside,
+section,
+nav {
+    padding: 30px;
+}
+
+header,
+footer {
+    background-color: blue;
+    color: white;
+}
+
+header h1,
+footer h2 {
+    font-size: 300%;
+}
+
+header,
+footer {
+    display: block;
+    clear: both;
+}
+
+nav {
+    background-color: orange;
+    color: white;
+}
+
+aside {
+    background-color: cyan;
+    color: black;
+    float: left;
+    width: 210px;
+    height: 300px;
+}
+
+aside,
+section {
+    margin: auto;
+}
+
+section {
+    float: left;
+    background-color: grey;
+    width: 1000px;
+    height: 500px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1330px;
+}
+
+table {
+    background-color: white;
+    padding: 50px;
+    margin: auto;
+}
+
+td {
+    padding: 20px;
+}
+
+input[type=submit] {
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    padding: 5px;
+    width: 250px;
+}
+
+.cellbutton {
+    text-align: center;
+}
+
+.coin {
+    width: 100px;
+    animation: spin 5s ease-out forwards, drop 5s linear forwards;
+    position: relative;
+    top: -300px;
+}
+
+h3 {
+    animation: drop 5s linear forwards;
+    position: relative;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(5400deg);
+    }
+    100% {}
+}
+
+@keyframes drop {
+    0% {
+        top: -300px;
+        filter: opacity(0%);
+    }
+    50% {
+        filter: opacity(100%);
+    }
+    100% {
+        top: 0px;
+    }
+}
